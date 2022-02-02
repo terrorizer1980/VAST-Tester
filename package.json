@@ -30,7 +30,7 @@
     "fecha": "^4.2.0",
     "file-saver": "^2.0.2",
     "font-awesome": "^4.7.0",
-    "husky": "^4.2.5",
+    "husky": "^4.3.8",
     "iab-vast-loader": "^2.2.0",
     "lint-staged": "^10.2.2",
     "lodash-es": "^4.17.11",
