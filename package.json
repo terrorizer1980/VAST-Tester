@@ -60,7 +60,7 @@
     "redux-observable": "^1.1.0",
     "reset-css": "^5.0.1",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.5.2",
+    "rxjs": "^6.6.7",
     "serialize-error": "^7.0.1",
     "standard": "^14.3.4",
     "upper-case-first": "^2.0.1",
