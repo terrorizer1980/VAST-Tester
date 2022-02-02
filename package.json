@@ -40,7 +40,7 @@
     "p-timeout": "^3.1.0",
     "prettier-standard": "^16.3.0",
     "prop-types": "^15.7.2",
-    "qs": "^6.7.0",
+    "qs": "^6.10.3",
     "react": "^16.8.6",
     "react-collapsible": "^2.6.0",
     "react-copy-to-clipboard": "^5.0.1",
