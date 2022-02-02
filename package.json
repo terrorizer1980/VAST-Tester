@@ -32,7 +32,7 @@
     "font-awesome": "^4.7.0",
     "husky": "^4.2.5",
     "iab-vast-loader": "^2.2.0",
-    "lint-staged": "^10.2.2",
+    "lint-staged": "^10.5.4",
     "lodash-es": "^4.17.11",
     "lower-case-first": "^2.0.1",
     "node-sass": "^4.12.0",
