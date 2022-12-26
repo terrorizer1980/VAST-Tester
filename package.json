@@ -49,7 +49,7 @@
     "react-json-tree": "^0.11.2",
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.0",
     "react-tabs": "^3.0.0",
     "react-textarea-autosize": "^7.1.0",
     "react-toggle": "^4.0.2",
