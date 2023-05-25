@@ -22,7 +22,9 @@
     "build": "yarn run clean && REACT_APP_BUILD_DATE=\"$( TZ=GMT date )\" react-scripts build",
     "buildwin": "yarn run clean && react-scripts build",
     "test": "standard \"src/**/*.js\"",
-    "format": "prettier-standard \"src/**/*.js\" && standard --fix \"src/**/*.js\""
+    "format": "prettier-standard \"src/**/*.js\" && standard --fix \"src/**/*.js\"",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "base16": "^1.0.0",
@@ -64,7 +66,8 @@
     "serialize-error": "^7.0.1",
     "standard": "^14.3.4",
     "upper-case-first": "^2.0.1",
-    "url-search-params": "^1.1.0"
+    "url-search-params": "^1.1.0",
+    "@snyk/protect": "latest"
   },
   "lint-staged": {
     "src/**/*.js": [
@@ -81,5 +84,6 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "snyk": true
 }
